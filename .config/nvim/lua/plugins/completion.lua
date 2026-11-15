@@ -22,7 +22,14 @@ return {
         preset = "luasnip",
       },
       sources = {
-        default = { "lsp", "path", "snippets", "buffer" },
+        default = { "lsp", "path", "snippets", "unicode", "buffer" },
+	providers = {
+	  unicode = {
+	    name = "Unicode",
+	    module = "config.cmp_unicode",
+	    score_offset = 100,
+	  },
+	},
       },
       signature = { enabled = true },
     },
