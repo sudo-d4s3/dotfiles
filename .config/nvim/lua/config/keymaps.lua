@@ -7,4 +7,4 @@ vim.keymap.set(
   "<Cmd>lua require('config.refactor').extract()<CR>",
   { silent = true, desc = "Extract selection into function (LSP / refactoring.nvim)" }
 )
-
+vim.keymap.set("n", "<leader>gd", "<cmd>InlineDiff<cr>", { desc = "Toggle inline diff" })
