@@ -6,4 +6,5 @@ vim.lsp.enable({
 	"rlsp-yaml",
 	"terraform-ls",
 	"docker_language_server",
+	"zk",
 })
