@@ -8,13 +8,18 @@ vim.opt.showmode = false
 
 vim.filetype.add({
 	extension = {
-		notes = "markdown",
-		tofu = "terraform",
-		tf = "terraform",
+		notes 	= "markdown",
+		tofu 	= "terraform",
+		tf 	= "terraform",
 		gotmpl = "gotmpl",
 	},
 	filename = {
-		Containerfile = "dockerfile",
+		Containerfile 		= "dockerfile",
+		["compose.yaml"] 	= "yaml.docker-compose",
+		["compose.yml"] 	= "yaml.docker-compose",
+		["docker-compose.yaml"] = "yaml.docker-compose",
+		["docker-compose.yml"] 	= "yaml.docker-compose",
+		
 	},
 })
 
