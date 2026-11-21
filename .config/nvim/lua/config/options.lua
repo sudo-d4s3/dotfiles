@@ -11,6 +11,7 @@ vim.filetype.add({
 		notes = "markdown",
 		tofu = "terraform",
 		tf = "terraform",
+		gotmpl = "gotmpl",
 	},
 	filename = {
 		Containerfile = "dockerfile",
